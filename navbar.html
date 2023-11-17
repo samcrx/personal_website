@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            color: #333;
+            background-color: #f6f6f6;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 28px;
+            border-bottom: 4px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            color: #3498db;
+        }
+
+        .education-entry {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 25px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .education-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .education-dates,
+        .education-location {
+            font-size: 14px;
+            font-weight: bold;
+            color: #7f8c8d;
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 30px;
+            list-style-type: disc;
+        }
+
+        ul li {
+            line-height: 1.5;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        li {
+            position: relative;
+            /* Essential for absolutely positioning the child elements */
+            width: 200px;
+            /* Or your desired width */
+            height: 50px;
+            /* Or your desired height */
+            list-style: none;
+            /* To remove bullet points */
+            border: 1px solid #000;
+            /* Optional: Just to see the boundaries of each list item */
+            margin-bottom: 10px;
+            /* Optional: To provide space between list items */
+            padding: 10px;
+            /* For some internal spacing */
+        }
+
+        .overlay-images {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            /* Optional: A semi-transparent white background */
+            justify-content: space-around;
+            /* Distribute the images with equal spacing */
+            align-items: center;
+            /* Center the images vertically */
+            display: flex;
+            /* Use flex for easy centering and spacing of images */
+        }
+
+        li:hover .overlay-images {
+            display: flex;
+            /* Display the images when the list item is hovered */
+        }
+
+        .overlay-images img {
+            max-width: 30%;
+            /* Or your desired width, ensuring all 3 images fit side by side */
+            cursor: pointer;
+            /* Indicate the images are clickable */
+        }
+
+        ul li .overlay-images {
+            display: none;
+        }
+
+        ul li:hover .overlay-images {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>EDUCATION</h2>
+
+    <!-- <ul> -->
+    <li>
+        List Item 1
+        <div class="overlay-images">
+            <a href="url1.com"><img src="icons/downloads.png" alt="Image 1"></a>
+            <a href="url2.com"><img src="icons/paper.png" alt="Image 2"></a>
+            <a href="url3.com"><img src="icons/video.png" alt="Image 3"></a>
+        </div>
+    </li>
+    <!-- Add more list items similarly... -->
+    <!-- </ul> -->
+
+
+    <div class="education-entry">
+        <div class="education-title">General Engineering school</div>
+        <div>Ecole Centrale de Lille</div>
+        <div class="education-dates">2015 - 2019</div>
+        <div class="education-location">Lille, France</div>
+        <ul>
+            <li>Specialty: data science</li>
+            <li>Machine Learning, Markov chains, estimation theory, Reinforcement learning, data fusion, optimization
+                and multi-agent system, operational research, probability and statistic</li>
+        </ul>
+    </div>
+
+    <div class="education-entry">
+        <div class="education-title">Master of Science - Applied Mathematics</div>
+        <div>University of Lille</div>
+        <div class="education-dates">2018 - 2019</div>
+        <div class="education-location">Lille, France</div>
+        <p>As an external candidate: Stochastic processes, diffusion process, functional analysis and Itô calculus</p>
+    </div>
+
+    <div class="education-entry">
+        <div class="education-title">Master of Science - SECRETS</div>
+        <div>University of Versailles</div>
+        <div class="education-dates">2017 - 2018</div>
+        <div class="education-location">Versailles, France</div>
+        <ul>
+            <li>Theory: mathematics for cryptography and industrial cryptography</li>
+            <li>Practice: system security, network security and application security</li>
+        </ul>
+    </div>
+
+
+    <div class="education-entry">
+        <div class="education-title">Bachelor in Mathematics</div>
+        <div>University of Lille 1</div>
+        <div class="education-dates">2015 - 2016</div>
+        <div class="education-location">Lille, France</div>
+        <ul>
+            <li>Option: complex analysis</li>
+        </ul>
+    </div>
+
+    <div class="education-entry">
+        <div class="education-title">CPGE MP</div>
+        <div>Lycée Aux Lazaristes</div>
+        <div class="education-dates">2013 - 2015</div>
+        <div class="education-location">Lyon, France</div>
+        <p>Undergraduated studies for Mathematics and Physics</p>
+    </div>
+
+</body>
+
+</html>

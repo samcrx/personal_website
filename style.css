@@ -1,0 +1,127 @@
+h2 {
+    font-size: 28px;
+    /* border-bottom: 4px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 30px; */
+    color: #3498db;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    /* Align items vertically in the center */
+}
+
+html {
+    background-color: #d4e3ee;
+    /* height: 100%; */
+    /* margin: 0; */
+
+}
+
+.profile-pic {
+    margin-right: 30px;
+    border-radius: 50%;
+    /* circular image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* subtle shadow */
+    /* Add space between the image and the text */
+}
+
+.justified-text {
+    text-align: justify;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #f6f6f6;
+    /* color: #333; */
+    overflow: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #FFF;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #EEE;
+    display: flex;
+    align-items: center;
+}
+
+header img.profile-pic {
+    width: 150px;
+    margin-right: 20px;
+    border: 1px solid #EEE;
+    border-radius: 50%;
+    /* circular image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    background-color: #f6f6f6;
+    /* #FFF; */
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #c1bbbb;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bio {
+    clear: both;
+}
+
+footer {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #EEE;
+}
+
+.bodycontainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 95%;
+}
+
+.main-content {
+    flex: 1;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+
+}
